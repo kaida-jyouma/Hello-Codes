@@ -19,7 +19,7 @@ public class program{
 	}
 	// 出力
 	public static void Main(){
-		//入力値は "2 3" <=2の3条を求める
+		//入力値は "2 3" <=2の3乗を求める
 		var j = Console.ReadLine();
 		Console.WriteLine(" in: " + j);
 		string[] nums = j.Split(' ');
