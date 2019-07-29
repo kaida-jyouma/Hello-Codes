@@ -1,4 +1,4 @@
-"""暗号化ツールplus_ver2.0.5"""
+"""暗号化&解読ツールplus_ver2.0.5"""
 import urllib.parse as urp
 # rot13
 def rot13(x):
