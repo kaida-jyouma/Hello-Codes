@@ -5,3 +5,4 @@ I wrote...
 1. How to find GCD
 2. How to make and solve Encryption (only Python...)
 3. How to find sqrt
+4. How to find LCM
