@@ -7,6 +7,6 @@ function sqrt(x, y){
 		while (Math.pow(prm, y) < num) prm += ct;
 		prm -= ct;
 	}
-	return prm;
+	return parseFloat(prm.toString().slice(0, -2));
 }
 console.log(sqrt(2));
