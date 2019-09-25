@@ -6,15 +6,14 @@ I wrote...
 2. How to make and solve Encryption (only Python...)
 3. How to find sqrt
 4. How to find LCM
-
-Python
 ```python: index.py
+# Python
 def greet(x):
     return("Hello, " + str(x) + "!")
 print(greet("Python"))
 ```
-C#
 ```cs: index.cs
+// C#
 using System;
 using System.Console;
 class Greeting{
@@ -26,8 +25,8 @@ class Greeting{
     }
 }
 ```
-C++
 ```cpp: index.cpp
+// C++
 #include <iostream>
 #include <string>
 using namespace std;
@@ -38,8 +37,8 @@ int main(){
     std::cout << greeting("C++") << std::endl;
 }
 ```
-Javascript
 ```javascript: index.js
+// Javascript
 function greet(x){
     return "Hello, " + x + "!";
 }
