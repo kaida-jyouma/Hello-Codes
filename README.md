@@ -1,15 +1,15 @@
 # Hello-Codes
 Just another repository\
-In this repository, I write codes by 3 languages, C#, C++, Python.\
+In this repository, I write codes by 4 languages, Javascript, C#, C++, Python.\
 I wrote...
 1. How to find GCD
 2. How to make and solve Encryption (only Python...)
 3. How to find sqrt
 4. How to find LCM
 ```python: index.py
-def Greet(x):
+def greet(x):
     return("Hello, " + str(x) + "!")
-Greet("Python")
+print(greet("Python"))
 ```
 ```cs: index.cs
 using System;
@@ -31,6 +31,12 @@ string greeting(string x){
     return "Hello, " + x + "!";
 }
 int main(){
-    stdd::cout << greeting("C++") << std::endl;
+    std::cout << greeting("C++") << std::endl;
 }
+```
+```javascript: index.js
+function greet(x){
+    return "Hello, " + x + "!";
+}
+console.log(greet("Javascript"));
 ```
